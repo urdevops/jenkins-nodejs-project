@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage("Clone Code"){
             steps{
-                git url: "https://github.com/kloudskart/jenkins-nodejs-project.git", branch: "master"
+                git url: "https://github.com/urdevops/jenkins-nodejs-project.git", branch: "master"
             }
         }
         stage("Build and Test"){
